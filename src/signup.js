@@ -1,5 +1,7 @@
 import React from 'react';
+import useSignUpForm from './CustomHooks';
 
+const { inputs, handleInputChange, handleSubmit } = useSignUpForm();
 
 const SignUp = (props) => (
     <form>
